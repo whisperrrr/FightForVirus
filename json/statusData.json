@@ -119,6 +119,13 @@
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 1
+      },
+      {
+        "cityName": "神农架",
+        "confirmedCount": 0,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 1
       }
     ]
   },

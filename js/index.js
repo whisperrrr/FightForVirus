@@ -14,7 +14,7 @@ $.get('./json/hubei.json', function (geoJson) {
         title: {
             text: '湖北新冠状病毒实时疫情数据(2020.1.27)',
             subtext: '数据来自丁香医生',
-            sublink: 'http://zh.wikipedia.org/wiki/%E9%A6%99%E6%B8%AF%E8%A1%8C%E6%94%BF%E5%8D%80%E5%8A%83#cite_note-12'
+            sublink: 'https://3g.dxy.cn/newh5/view/pneumonia_peopleapp?from=singlemessage&isappinstalled=0'
         },
         tooltip: {
             trigger: 'item',
@@ -32,8 +32,8 @@ $.get('./json/hubei.json', function (geoJson) {
             }
         },
         visualMap: {
-            min: 800,
-            max: 50000,
+            min: 0,
+            max: 1000,
             text: ['High', 'Low'],
             realtime: false,
             calculable: true,
