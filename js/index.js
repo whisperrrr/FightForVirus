@@ -38,7 +38,7 @@ $.get('./json/hubei.json', function (geoJson) {
             realtime: false,
             calculable: true,
             inRange: {
-                color: ['lightskyblue', 'yellow', 'orangered']
+                color: ['indianred',  'darkred']
             }
         },
         series: [
