@@ -81,7 +81,7 @@ $.get('./json/henan.json', function (geoJson) {
 });
 
 function parseToCity() {
-  let cityList = myData[0].cities;
+  let cityList = myData[3].cities;
   let cityListLength = cityList.length;
   let resultdata = [];
   for (let i = 0; i < cityListLength; i++) {
