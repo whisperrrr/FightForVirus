@@ -1325,6 +1325,80 @@
     ]
   },
   {
+    "provinceName": "福建省",
+    "provinceShortName": "福建",
+    "confirmedCount": 73,
+    "suspectedCount": 0,
+    "curedCount": 0,
+    "deadCount": 0,
+    "comment": "",
+    "cities": [
+      {
+        "cityName": "福州",
+        "confirmedCount": 18,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0
+      },
+      {
+        "cityName": "莆田",
+        "confirmedCount": 14,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0
+      },
+      {
+        "cityName": "泉州",
+        "confirmedCount": 13,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0
+      },
+      {
+        "cityName": "三明",
+        "confirmedCount": 8,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0
+      },
+      {
+        "cityName": "宁德",
+        "confirmedCount": 6,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0
+      },
+      {
+        "cityName": "厦门",
+        "confirmedCount": 5,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0
+      },
+      {
+        "cityName": "漳州",
+        "confirmedCount": 5,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0
+      },
+      {
+        "cityName": "南平",
+        "confirmedCount": 3,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0
+      },
+      {
+        "cityName": "龙岩",
+        "confirmedCount": 1,
+        "suspectedCount": 0,
+        "curedCount": 0,
+        "deadCount": 0
+      }
+    ]
+  },
+  {
     "provinceName": "江西省",
     "provinceShortName": "江西",
     "confirmedCount": 72,

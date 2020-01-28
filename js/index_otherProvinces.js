@@ -4,7 +4,7 @@ myChart.showLoading();
 
 $.getJSON('./json/statusData.json',function(data){myData = data;});
 
-$.get('./json/hubei.json', function (geoJson) {
+$.get('./json/henan.json', function (geoJson) {
     citysData = parseToCity();
     myChart.hideLoading();
 
@@ -81,7 +81,7 @@ $.get('./json/hubei.json', function (geoJson) {
 });
 
 function parseToCity() {
-  let cityList = myData[0].cities;
+  let cityList = myData[3].cities;    //  “3”代表丁香园统计数据中河南的序号
   let cityListLength = cityList.length;
   let resultdata = [];
   for (let i = 0; i < cityListLength; i++) {
