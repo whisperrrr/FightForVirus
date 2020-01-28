@@ -4,7 +4,7 @@ myChart.showLoading();
 
 $.getJSON('./json/statusData.json',function(data){myData = data;});
 
-$.get('./json/hubei.json', function (geoJson) {
+$.get('./json/henan.json', function (geoJson) {
     citysData = parseToCity();
     myChart.hideLoading();
 
