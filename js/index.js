@@ -33,12 +33,16 @@ $.get('./json/hubei.json', function (geoJson) {
         },
         visualMap: {
             min: 0,
-            max: 1000,
-            text: ['High', 'Low'],
-            realtime: false,
-            calculable: true,
+            max: 200,
+            splitNumber: 4,
             inRange: {
-                color: ['indianred',  'darkred']
+                color: ['#f5d6d9','#d94e5d'],
+            },
+            outOfRange: {
+                color: 'darkred',
+            },
+            textStyle: {
+                color: '#000',
             }
         },
         series: [
