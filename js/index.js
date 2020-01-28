@@ -12,7 +12,7 @@ $.get('./json/hubei.json', function (geoJson) {
 
     myChart.setOption(option = {
         title: {
-            text: '湖北省新冠状病毒实时疫情数据(2020-01-28 18:38(北京时间))',
+            text: '湖北省新冠状病毒实时疫情数据(2020-01-28 21:00(北京时间))',
             subtext: '数据来自丁香医生',
             sublink: 'https://3g.dxy.cn/newh5/view/pneumonia_peopleapp?from=singlemessage&isappinstalled=0'
         },
