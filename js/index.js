@@ -12,7 +12,7 @@ $.get('./json/hubei.json', function (geoJson) {
 
     myChart.setOption(option = {
         title: {
-            text: '湖北省新冠状病毒实时疫情数据(2020.1.27 22:40(北京时间))',
+            text: '湖北省新冠状病毒实时疫情数据(2020-01-28 12:15 (北京时间))',
             subtext: '数据来自丁香医生',
             sublink: 'https://3g.dxy.cn/newh5/view/pneumonia_peopleapp?from=singlemessage&isappinstalled=0'
         },
@@ -33,8 +33,8 @@ $.get('./json/hubei.json', function (geoJson) {
         },
         visualMap: {
             min: 0,
-            max: 200,
-            splitNumber: 4,
+            max: 250,
+            splitNumber: 5,
             inRange: {
                 color: ['#f5d6d9','#d94e5d'],
             },
