@@ -34,7 +34,7 @@ $.get('./json/hubei.json', function (geoJson) {
         visualMap: {
             min: 0,
             max: 1000,
-            splitNumber: 5,
+            splitNumber: 10,
             inRange: {
                 color: ['#f5d6d9','#d94e5d'],
             },
