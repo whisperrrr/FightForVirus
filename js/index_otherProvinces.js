@@ -81,7 +81,7 @@ $.get('./json/henan.json', function (geoJson) {
 });
 
 function parseToCity() {
-  let cityList = myData[3].cities;    //  “3”代表丁香园统计数据中河南的序号
+  let cityList = myData[4].cities;    //  “4”代表丁香园统计数据中河南的实时序号
   let cityListLength = cityList.length;
   let resultdata = [];
   for (let i = 0; i < cityListLength; i++) {
