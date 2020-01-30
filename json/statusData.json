@@ -1446,21 +1446,21 @@
     "comment": "待明确地区：死亡 1",
     "cities": [
       {
-        "cityName": "海淀",
+        "cityName": "海淀区",
         "confirmedCount": 24,
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0
       },
       {
-        "cityName": "朝阳",
+        "cityName": "朝阳区",
         "confirmedCount": 21,
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0
       },
       {
-        "cityName": "西城",
+        "cityName": "西城区",
         "confirmedCount": 12,
         "suspectedCount": 0,
         "curedCount": 0,
@@ -1474,56 +1474,56 @@
         "deadCount": 0
       },
       {
-        "cityName": "丰台",
+        "cityName": "丰台区",
         "confirmedCount": 10,
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0
       },
       {
-        "cityName": "大兴",
+        "cityName": "大兴区",
         "confirmedCount": 10,
         "suspectedCount": 0,
         "curedCount": 2,
         "deadCount": 0
       },
       {
-        "cityName": "昌平",
+        "cityName": "昌平区",
         "confirmedCount": 8,
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0
       },
       {
-        "cityName": "通州",
+        "cityName": "通州区",
         "confirmedCount": 8,
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0
       },
       {
-        "cityName": "石景山",
+        "cityName": "石景山区",
         "confirmedCount": 2,
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0
       },
       {
-        "cityName": "顺义",
+        "cityName": "顺义区",
         "confirmedCount": 2,
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0
       },
       {
-        "cityName": "东城",
+        "cityName": "东城区",
         "confirmedCount": 2,
         "suspectedCount": 0,
         "curedCount": 0,
         "deadCount": 0
       },
       {
-        "cityName": "门头沟",
+        "cityName": "门头沟区",
         "confirmedCount": 1,
         "suspectedCount": 0,
         "curedCount": 0,
