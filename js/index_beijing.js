@@ -81,7 +81,7 @@ $.get('./json/beijing.json', function (geoJson) {
 });
 
 function parseToCity() {
-  let cityList = myData[10].cities;    //  “10”代表丁香园统计数据中河南的实时序号
+  let cityList = myData[11].cities;    //  “11”代表丁香园统计数据中beijing的实时序号
   let cityListLength = cityList.length;
   let resultdata = [];
   for (let i = 0; i < cityListLength; i++) {
