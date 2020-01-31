@@ -33,7 +33,7 @@ $.get('./json/beijing.json', function (geoJson) {
         },
         visualMap: {
             min: 0,
-            max: 100,
+            max: 50,
             splitNumber: 10,
             inRange: {
                 color: ['#f5d6d9','#d94e5d'],
