@@ -86,7 +86,7 @@ function parseToCity() {
   let resultdata = [];
   for (let i = 0; i < cityListLength; i++) {
     let city = {name:"",value:""};
-    city.name = cityList[i].cityName.length < 3 ? cityList[i].cityName + "市":cityList[i].cityName;
+    city.name = cityList[i].cityName.length < 3 ? cityList[i].cityName + "区":cityList[i].cityName;
     city.value = cityList[i].confirmedCount;
     resultdata.push(city);
   }
