@@ -12,7 +12,7 @@ $.get('./json/henan.json', function (geoJson) {
 
     myChart.setOption(option = {
         title: {
-            text: '河南省新冠状病毒实时疫情数据(2020-01-31 15:48 (北京时间))',
+            text: '河南省新冠状病毒实时疫情数据( 2020-01-31 20:32 (北京时间))',
             subtext: '数据来自丁香医生',
             sublink: 'https://3g.dxy.cn/newh5/view/pneumonia_peopleapp?from=singlemessage&isappinstalled=0'
         },
