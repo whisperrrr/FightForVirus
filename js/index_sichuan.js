@@ -12,7 +12,7 @@ $.get('./json/sichuan.json', function (geoJson) {
 
     myChart.setOption(option = {
         title: {
-            text: '四川省新冠状病毒实时疫情数据(2020-02-01 21:54(北京时间))',
+            text: '四川省新冠状病毒实时疫情数据(2020-02-02 10：00(北京时间))',
             subtext: '数据来自丁香医生',
             sublink: 'https://3g.dxy.cn/newh5/view/pneumonia_peopleapp?from=singlemessage&isappinstalled=0'
         },
