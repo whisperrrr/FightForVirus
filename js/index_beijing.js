@@ -12,7 +12,7 @@ $.get('./json/beijing.json', function (geoJson) {
 
     myChart.setOption(option = {
         title: {
-            text: '北京市新冠状病毒实时疫情数据(2020-02-02 15:41(北京时间))',
+            text: '北京市新冠状病毒实时疫情数据(2020-02-03 19:28(北京时间))',
             subtext: '数据来自丁香医生',
             sublink: 'https://3g.dxy.cn/newh5/view/pneumonia_peopleapp?from=singlemessage&isappinstalled=0'
         },
