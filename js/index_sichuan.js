@@ -12,7 +12,7 @@ $.get('./json/sichuan.json', function (geoJson) {
 
     myChart.setOption(option = {
         title: {
-            text: '四川省新冠状病毒实时疫情数据(2020-02-03 19:28(北京时间))',
+            text: '四川省新冠状病毒实时疫情数据(2020-02-04 09:28(北京时间))',
             subtext: '数据来自丁香医生',
             sublink: 'https://3g.dxy.cn/newh5/view/pneumonia_peopleapp?from=singlemessage&isappinstalled=0'
         },
@@ -81,7 +81,7 @@ $.get('./json/sichuan.json', function (geoJson) {
 });
 
 function parseToCity() {
-  let cityList = myData[9].cities;    //  “9”代表丁香园统计数据中四川的实时序号
+  let cityList = myData[10].cities;    //  “10”代表丁香园统计数据中四川的实时序号
   let cityListLength = cityList.length;
   let resultdata = [];
   for (let i = 0; i < cityListLength; i++) {
